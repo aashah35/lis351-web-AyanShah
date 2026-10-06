@@ -1,7 +1,3 @@
-/* styles.css
-   A4: Intro CSS Fill-in Template (completed)
-*/
-
 /* ===== Base styles (mostly done) ===== */
 * { box-sizing: border-box; }
 
@@ -28,7 +24,6 @@ a:hover { text-decoration: underline; }
 }
 
 .header-inner {
-  /* TODO A (Flexbox) */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -41,7 +36,6 @@ a:hover { text-decoration: underline; }
 }
 
 .brand .dot {
-  /* TODO B (Color) */
   color: #D9480F;
 }
 
@@ -62,7 +56,6 @@ a:hover { text-decoration: underline; }
 
 /* ===== Hero ===== */
 .hero {
-  /* TODO C (Background image hero) */
   background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
                     url("images/hero.jpg");
   background-size: cover;
@@ -71,21 +64,18 @@ a:hover { text-decoration: underline; }
 }
 
 .hero-content {
-  /* TODO D (Center content) */
   text-align: center;
   padding: 80px 0;
 }
 
 .hero h1 {
   margin: 0;
-  /* TODO E (Typography) */
   font-size: 48px;
   text-transform: uppercase;
 }
 
 .hero-subhead {
   margin: 6px 0 22px;
-  /* TODO F (Typography) */
   font-size: 22px;
   color: #555;
 }
@@ -99,13 +89,11 @@ a:hover { text-decoration: underline; }
 }
 
 .btn-dark {
-  /* TODO G (Button styling) */
   background: #333;
   color: #fff;
 }
 
 .btn-outline {
-  /* TODO H (Button styling) */
   border: 2px solid #D9480F;
   color: #D9480F;
   background: transparent;
@@ -117,14 +105,12 @@ a:hover { text-decoration: underline; }
 }
 
 .features-grid {
-  /* TODO I (Layout) */
   display: flex;
   gap: 26px;
   margin-top: 28px;
 }
 
 .feature {
-  /* TODO J (Sizing / alignment) */
   flex: 1;
   text-align: center;
 }
@@ -177,14 +163,12 @@ a:hover { text-decoration: underline; }
 }
 
 .secondary-grid {
-  /* TODO K (Layout) */
   display: flex;
   gap: 26px;
   margin-top: 24px;
 }
 
 .card {
-  /* TODO L (Card styling) */
   flex: 1;
   border: 1px solid #ddd;
   display: grid;
@@ -210,12 +194,11 @@ a:hover { text-decoration: underline; }
 
 .card-image {
   min-height: 160px;
-  /* TODO M (Image block) */
   background-size: cover;
   background-position: center;
 }
 
-/* Card images (using my own stadium photo) */
+/* Optional images (already provided) */
 .img-a {
   background-image: url("images/hero.jpg");
   background-position: 15% center;
@@ -232,7 +215,6 @@ a:hover { text-decoration: underline; }
 }
 
 .cta-inner {
-  /* TODO N (Center CTA) */
   text-align: center;
 }
 
@@ -244,7 +226,6 @@ a:hover { text-decoration: underline; }
 }
 
 .footer-inner {
-  /* TODO O (Footer layout) */
   display: flex;
   justify-content: space-between;
   gap: 24px;
